@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rahul.todofy.OptionsScreen">
+
+
+    <Button
+        android:id="@+id/Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:onClick="makeANote"
+        android:text="Make a Note"
+        android:textColor="#26ae90"
+        android:textColorLink="#26ae90"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:text="Settings"
+        android:textColor="#26ae90"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:onClick="settings"/>
+</LinearLayout>
